@@ -7,7 +7,10 @@
     "start:dev": "NODE_ENV=development webpack serve",
     "test": "jest",
     "test:watch": "jest --verbose --watchAll --no-cache --runInBand",
-    "tsc:check": "tsc --noEmit --project tsconfig.json"
+    "tsc:check": "tsc --noEmit --project tsconfig.json",
+    "lint": "eslint \"src/**/*.{ts,tsx,js,jsx}\"",
+    "prettier:fix": "prettier --write \"src/**/*.{ts,tsx,js,jsx}\"",
+    "prettier:check": "prettier \"src/**/*.{ts,tsx,js,jsx}\""
   },
   "keywords": [],
   "author": "",
