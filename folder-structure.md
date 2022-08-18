@@ -42,6 +42,8 @@ src
 └── App.tsx
 │
 └── App.scss
+│
+└── jsconfig.json
 ```
 
 GITHUB REPO - 
@@ -51,3 +53,12 @@ GITHUB REPO -
 BLOG LINK -
 
     https://medium.com/geekculture/react-js-architecture-features-folder-structure-design-pattern-70b7b9103f22#e244
+
+jsconfig.json -
+
+    {
+        "compilerOptions": {
+            "baseUrl": "src"
+        },
+    "include": ["src"]
+    }
