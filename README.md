@@ -1,6 +1,7 @@
 ### About it ???
 
-    This includes a step by step setup of react project from scratch. To follow along, check all commits and follow along.
+    This includes a step by step setup of react project from scratch. 
+    To follow, check all commits and follow along.
     It includes -
         * webpack
         * babel
